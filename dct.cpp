@@ -113,11 +113,11 @@ int main(void)
   
   src.read("a01.png");
   //image.display();
-  //addwtm.read("image_w1a.png");
+  addwtm.read("image_w1a.png");
   //image1.display();
   //getPSNR(&src, &addwtm);
   
-  //getNC(&src, &addwtm);
+  getNC(&src, &addwtm);
   
   return 0;
 
